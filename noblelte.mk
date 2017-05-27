@@ -76,8 +76,9 @@ PRODUCT_PACKAGES += \
     libril \
     libreference-ril \
     libsecril-client \
-    libsecril-client-sap
-    
+    libsecril-client-sap \
+    modemloader
+
 PRODUCT_PACKAGES += \
     SamsungServiceMode
 
