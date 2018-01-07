@@ -71,9 +71,12 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
 PRODUCT_PACKAGES += \
+    rild \
+    libril \
+    libreference-ril \
     libsecril-client \
     libsecril-client-sap
-
+    
 PRODUCT_PACKAGES += \
     SamsungServiceMode
 

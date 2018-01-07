@@ -145,6 +145,7 @@ BOARD_VENDOR := samsung
 BOARD_PROVIDES_LIBRIL := true
 
 # RIL.java overwrite
+BOARD_MODEM_TYPE := ss333
 BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 
 # Boot animation
