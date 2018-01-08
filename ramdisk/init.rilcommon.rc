@@ -42,3 +42,4 @@ service dhcpcd_usb0 /system/bin/dhcpcd -ABKL
 # for Wi-Fi only models
 on property:ro.radio.noril=yes
     stop ril-daemon
+
