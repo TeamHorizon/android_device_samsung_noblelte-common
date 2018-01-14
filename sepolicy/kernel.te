@@ -10,3 +10,11 @@ allow kernel device:chr_file { create setattr getattr unlink };
 allow kernel kernel:capability { chown };
 allow kernel sysfs_devices_system_cpu:file { setattr };
 allow kernel sysfs:file { setattr };
+
+allow kernel app_efs_file:dir search;
+allow kernel app_efs_file:file { read write open };
+
+allow kernel efs_file:dir search;
+allow kernel battery_efs_file:dir { search open read };
+allow kernel battery_efs_file:file { read open };
+
